@@ -1,7 +1,7 @@
 # Biddiscombe.dev
 
 ## Creating the project
- 
+
 ```bash
 npm create svelte@latest biddiscombe
 npx svelte-add@latest mdsvex tailwindcss --tailwindcss-forms --tailwindcss-typography --tailwindcss-daisyui

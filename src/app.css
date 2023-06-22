@@ -1,0 +1,7 @@
+@import '@fontsource-variable/mulish';
+@import '@fontsource-variable/source-code-pro';
+
+html,
+body {
+	height: 100%;
+}

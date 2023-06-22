@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="grid h-full place-items-center">
+	<div class="">
+		<div class="border-4 border-primary-content p-2">
+			<div class="bg-primary-content px-4 py-3 text-4xl font-extrabold uppercase text-base-100">
+				Lee Biddiscombe
+			</div>
+		</div>
+		<pre class="mt-2 text-center text-3xl"> Developer </pre>
+	</div>
+</div>
