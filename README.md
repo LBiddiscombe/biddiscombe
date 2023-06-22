@@ -1,4 +1,5 @@
-# Biddiscombe.dev
+# biddiscombe.dev
+The source for my personal website biddiscombe.dev
 
 ## Creating the project
 
