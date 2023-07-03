@@ -5,7 +5,7 @@
 	export let app: App;
 </script>
 
-<a href={app.slug} class="">
+<a href={`blog/${app.slug}`} class="">
 	<article class="py-2">
 		<p class="text-xl">{app.title}</p>
 		<p class="text-gray-500">{formatDate(app.date)}</p>

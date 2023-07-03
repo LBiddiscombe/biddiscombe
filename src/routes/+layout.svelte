@@ -24,7 +24,7 @@
 								<a class="text-gray-500 hover:text-gray-500/75" href="/projects">Projects</a>
 							</li>
 							<li>
-								<a class="text-gray-500 hover:text-gray-500/75" href="/posts">Blog</a>
+								<a class="text-gray-500 hover:text-gray-500/75" href="/blog">Blog</a>
 							</li>
 						</ul>
 					</nav>

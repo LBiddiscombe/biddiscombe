@@ -4,7 +4,7 @@ import type { App } from '$lib/types'
 async function getApps() {
 	let apps: App[] = []
 
-	const paths = import.meta.glob('/src/_posts/*.md', { eager: true })
+	const paths = import.meta.glob('/src/_content/**/*.md', { eager: true })
 
 	for (const path in paths) {
 		const file = paths[path]
