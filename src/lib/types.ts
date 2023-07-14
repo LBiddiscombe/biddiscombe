@@ -1,4 +1,4 @@
-export type App = {
+export type Content = {
   title: string;
   slug: string;
   description: string;

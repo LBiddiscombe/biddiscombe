@@ -1,8 +1,8 @@
 import { json } from '@sveltejs/kit'
-import type { App } from '$lib/types'
+import type { Content } from '$lib/types'
 
-async function getApps() {
-	let apps: App[] = []
+async function getContent(searchTags: string[] = []) {
+	let content: Content[] = []
 
 	const paths = import.meta.glob('/src/_content/**/*.md', { eager: true })
 
@@ -11,20 +11,27 @@ async function getApps() {
 		const slug = path.split('/').at(-1)?.replace('.md', '')
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<App, 'slug'>
-			const app = { ...metadata, slug } satisfies App
-			app.published && apps.push(app)
+			const metadata = file.metadata as Omit<Content, 'slug'>
+			const app = { ...metadata, slug } satisfies Content
+			app.published && content.push(app)
 		}
 	}
 
-	apps = apps.sort((first, second) =>
+	if (searchTags.length > 0) {
+		content = content.filter(post =>
+			post.tags.some(tag => searchTags.includes(tag))
+		)
+	}
+
+	content = content.sort((first, second) =>
 		new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
 
-	return apps
+	return content
 }
 
-export async function GET() {
-	const apps = await getApps()
-	return json(apps)
+export async function GET({ url }) {
+	const searchTags = url.searchParams.get("searchTags")?.split(',')
+	const content = await getContent(searchTags)
+	return json(content)
 }

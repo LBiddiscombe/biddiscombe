@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { App } from '$lib/types';
+	import type { Content } from '$lib/types';
 	import { formatDate } from '$lib/utils';
 
-	export let app: App;
+	export let app: Content;
 </script>
 
 <a href={`blog/${app.slug}`} class="bg-base-300 p-4">

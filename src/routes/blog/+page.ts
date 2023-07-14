@@ -1,7 +1,7 @@
-import type { App } from '$lib/types'
+import type { Content } from '$lib/types'
 
-export async function load({ fetch }) {
-  const response = await fetch('api/posts')
-  const apps: App[] = await response.json()
+export async function load({ fetch, url }) {
+  const response = await fetch(`api/posts?${url.searchParams.toString()}`)
+  const apps: Content[] = await response.json()
   return { apps }
 }
