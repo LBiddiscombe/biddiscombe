@@ -2,7 +2,6 @@
 	import { formatDate } from '$lib/utils';
 
 	export let data;
-	console.log(data);
 </script>
 
 <!-- SEO -->

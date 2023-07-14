@@ -1,12 +1,12 @@
 <section>
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-			<div class="grid place-content-center rounded bg-blue-200 p-6 sm:p-8">
+			<div class="grid place-content-center rounded bg-red-200 p-6 sm:p-8">
 				<div class="mx-auto max-w-md text-center lg:text-left">
 					<header>
-						<h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Apps</h2>
+						<h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Games</h2>
 
-						<p class="mt-4 text-gray-500">A showcase of the apps I've built over the years</p>
+						<p class="mt-4 text-gray-500">Here's some games I had fun creating at various times</p>
 					</header>
 
 					<a
@@ -21,9 +21,12 @@
 			<div class="lg:col-span-2 lg:py-8">
 				<ul class="grid grid-cols-2 gap-4">
 					<li>
-						<a href="https://mynotes-lsb.vercel.app" class="group block">
+						<a
+							href="http://lbconstruct2.azurewebsites.net/games/Jetpac/index.html"
+							class="group block"
+						>
 							<img
-								src="/images/my-notes-cover.png"
+								src="/images/jetpac-cover.png"
 								alt=""
 								class="aspect-square w-full rounded object-cover object-left-top"
 							/>
@@ -33,31 +36,28 @@
 									My Notes
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">
-									My Notes - actually, it's YOUR note taking app. All data is saved locally in the
-									browser, no data is sent to a server
-								</p>
+								<p class="mt-1 text-sm text-gray-500">Jetpac remake</p>
 							</div>
 						</a>
 					</li>
 
 					<li>
-						<a href="https://familyworkout.netlify.app" class="group block">
+						<a
+							href="http://lbconstruct2.azurewebsites.net/games/MyaFootball/index.html"
+							class="group block"
+						>
 							<img
-								src="/images/family-workout-cover.jpg"
+								src="/images/mya-football-cover.png"
 								alt=""
 								class="aspect-square w-full rounded object-cover"
 							/>
 
 							<div class="mt-3">
 								<h3 class="font-medium group-hover:underline group-hover:underline-offset-4">
-									Family Workout
+									Mya's Footballs
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">
-									During lockdown we decided to do something as a family to keep active and to have
-									some fun.
-								</p>
+								<p class="mt-1 text-sm text-gray-500">Platform fun.</p>
 							</div>
 						</a>
 					</li>

@@ -3,5 +3,5 @@
 </script>
 
 <div class="mx-auto grid h-full max-w-screen-xl place-items-center">
-	<Name />
+	Hi, I'm Lee a web developer based in the UK.
 </div>
