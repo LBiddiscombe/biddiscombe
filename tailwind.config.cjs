@@ -14,6 +14,9 @@ const config = {
 			mono: ['Source Code Pro Variable', ...defaultTheme.fontFamily.mono]
 		}
 	},
+	daisyui: {
+		themes: ['light', 'dark']
+	},
 
 	plugins: [forms, typography, daisyui]
 };

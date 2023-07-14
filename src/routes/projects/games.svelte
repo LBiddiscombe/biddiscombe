@@ -33,10 +33,10 @@
 
 							<div class="mt-3">
 								<h3 class="font-medium group-hover:underline group-hover:underline-offset-4">
-									My Notes
+									Jetpac Remake
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">Jetpac remake</p>
+								<p class="mt-1 text-sm text-gray-500">A Jetpac remake</p>
 							</div>
 						</a>
 					</li>
@@ -57,7 +57,7 @@
 									Mya's Footballs
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">Platform fun.</p>
+								<p class="mt-1 text-sm text-gray-500">Platform fun</p>
 							</div>
 						</a>
 					</li>

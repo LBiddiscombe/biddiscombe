@@ -3,6 +3,7 @@
 	import '../app.postcss';
 	import PageTransition from '$lib/components/transition.svelte';
 	import Name from '$lib/components/name.svelte';
+	import ThemeToggle from '$lib/components/themeToggle.svelte';
 
 	export let data;
 </script>
@@ -19,19 +20,21 @@
 					<nav aria-label="Global" class="">
 						<ul class="flex items-center gap-6">
 							<li>
-								<a class="text-gray-200 hover:text-gray-200/75" href="/projects">Projects</a>
+								<a class="text-base-content hover:text-base-content/75" href="/projects">Projects</a>
 							</li>
 							|
 							<li>
-								<a class="text-gray-200 hover:text-gray-200/75" href="/blog">Blog</a>
+								<a class="text-base-content hover:text-base-content/75" href="/blog">Blog</a>
 							</li>
 							|
 							<li>
-								<a class="text-gray-200 hover:text-gray-200/75" href="/about">About</a>
+								<a class="text-base-content hover:text-base-content/75" href="/about">About</a>
 							</li>
+							|
 						</ul>
 					</nav>
 				</div>
+				<ThemeToggle />
 			</div>
 		</div>
 	</header>
