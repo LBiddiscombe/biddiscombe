@@ -8,7 +8,12 @@
 <a href={`blog/${app.slug}`} class="bg-base-300 p-4">
 	<article class="py-2">
 		<p class="text-xl font-semibold">{app.title}</p>
-		<p class="mb-4 text-gray-500">{formatDate(app.date)}</p>
+		<p class=" text-gray-500">{formatDate(app.date)}</p>
+		<div class="flex gap-2 py-2">
+			{#each app.tags as tag}
+				<span class="rounded bg-base-200 px-2 py-1 font-mono text-xs">&num;{tag}</span>
+			{/each}
+		</div>
 		<p class="font-thin">{app.description}</p>
 	</article>
 </a>

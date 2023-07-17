@@ -3,6 +3,7 @@ import type { Content } from '$lib/types'
 
 async function getContent(searchTags: string[] = []) {
 	let content: Content[] = []
+	const tags: string[] = []
 
 	const paths = import.meta.glob('/src/_content/**/*.md', { eager: true })
 
@@ -12,6 +13,7 @@ async function getContent(searchTags: string[] = []) {
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
 			const metadata = file.metadata as Omit<Content, 'slug'>
+			metadata.tags = metadata.tags.sort()
 			const app = { ...metadata, slug } satisfies Content
 			app.published && content.push(app)
 		}
@@ -27,11 +29,13 @@ async function getContent(searchTags: string[] = []) {
 		new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
 
-	return content
+	content.forEach(c => tags.push(...c.tags))
+
+	return { content, tags: [...new Set(tags)].sort() }
 }
 
 export async function GET({ url }) {
 	const searchTags = url.searchParams.get("searchTags")?.split(',')
-	const content = await getContent(searchTags)
-	return json(content)
+	const { content, tags } = await getContent(searchTags)
+	return json({ content, tags: [...tags] })
 }
