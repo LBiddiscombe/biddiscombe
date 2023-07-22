@@ -3,9 +3,9 @@ title: Football Platformer
 description: A little platform game
 coverimg: '/images/my-notes-cover.png'
 date: '2014-03-22'
-tags: 
-    - 'game'
-    - 'construct'
+tags:
+  - 'game'
+  - 'construct'
 published: true
 ---
 

@@ -15,7 +15,7 @@ const config = {
 		vitePreprocess(),
 		preprocess({
 			postcss: true
-		}),
+		})
 	],
 
 	kit: {
