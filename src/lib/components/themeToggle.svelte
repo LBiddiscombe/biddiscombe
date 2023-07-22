@@ -8,12 +8,12 @@
 	{#if $theme === 'dark'}
 		<div in:fly={{ y: 10 }} class="flex gap-2">
 			<Sun />
-			<span>Light</span>
+			<span class="hidden sm:inline-block">Light</span>
 		</div>
 	{:else}
 		<div in:fly={{ y: -10 }}  class="flex gap-2">
 			<Moon />
-			<span>Dark</span>
+			<span class="hidden sm:inline-block">Dark</span>
 		</div>
 	{/if}
 </button>

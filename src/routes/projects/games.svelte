@@ -1,17 +1,17 @@
 <section>
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-			<div class="grid place-content-center rounded bg-red-200 p-6 sm:p-8">
+			<div class="grid place-content-center  bg-red-200 p-6 sm:p-8">
 				<div class="mx-auto max-w-md text-center lg:text-left">
 					<header>
-						<h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Games</h2>
+						<h2 class="text-xl font-bold text-neutral-900 sm:text-3xl">Games</h2>
 
-						<p class="mt-4 text-gray-500">Here's some games I had fun creating at various times</p>
+						<p class="mt-4 text-neutral-500">Here's some games I had fun creating at various times</p>
 					</header>
 
 					<a
 						href="/blog?searchTags=game"
-						class="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
+						class="btn btn-neutral rounded-none mt-8 inline-block px-12 py-3 text-sm font-medium hover:shadow focus:outline-none focus:ring"
 					>
 						View All
 					</a>
@@ -28,7 +28,7 @@
 							<img
 								src="/images/jetpac-cover.png"
 								alt=""
-								class="aspect-square w-full rounded object-cover object-left-top"
+								class="aspect-square w-full  object-cover object-left-top"
 							/>
 
 							<div class="mt-3">
@@ -36,7 +36,7 @@
 									Jetpac Remake
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">A Jetpac remake</p>
+								<p class="mt-1 text-sm  text-base-content/75">A Jetpac remake, best played on mobile</p>
 							</div>
 						</a>
 					</li>
@@ -49,7 +49,7 @@
 							<img
 								src="/images/mya-football-cover.png"
 								alt=""
-								class="aspect-square w-full rounded object-cover"
+								class="aspect-square w-full  object-cover"
 							/>
 
 							<div class="mt-3">
@@ -57,7 +57,7 @@
 									Mya's Footballs
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">Platform fun</p>
+								<p class="mt-1 text-sm text-base-content/75">Platform fun</p>
 							</div>
 						</a>
 					</li>

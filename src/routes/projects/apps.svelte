@@ -1,17 +1,17 @@
 <section>
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-			<div class="grid place-content-center rounded bg-blue-200 p-6 sm:p-8">
+			<div class="grid place-content-center bg-blue-200 p-6 sm:p-8">
 				<div class="mx-auto max-w-md text-center lg:text-left">
 					<header>
-						<h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Apps</h2>
+						<h2 class="text-xl font-bold text-neutral sm:text-3xl">Apps</h2>
 
-						<p class="mt-4 text-gray-500">A showcase of the apps I've built over the years</p>
+						<p class="mt-4 text-neutral">A showcase of the apps I've built over the years</p>
 					</header>
 
 					<a
 						href="/blog?searchTags=app"
-						class="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
+						class="btn btn-neutral rounded-none mt-8 inline-block px-12 py-3 text-sm font-medium hover:shadow focus:outline-none focus:ring"
 					>
 						View All
 					</a>
@@ -25,7 +25,7 @@
 							<img
 								src="/images/my-notes-cover.png"
 								alt=""
-								class="aspect-square w-full rounded object-cover object-left-top"
+								class="aspect-square w-full object-cover object-left-top"
 							/>
 
 							<div class="mt-3">
@@ -33,7 +33,7 @@
 									My Notes
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">
+								<p class="mt-1 text-sm text-base-content/75">
 									My Notes - actually, it's YOUR note taking app. All data is saved locally in the
 									browser, no data is sent to a server
 								</p>
@@ -46,7 +46,7 @@
 							<img
 								src="/images/family-workout-cover.jpg"
 								alt=""
-								class="aspect-square w-full rounded object-cover"
+								class="aspect-square w-full object-cover"
 							/>
 
 							<div class="mt-3">
@@ -54,7 +54,7 @@
 									Family Workout
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-500">
+								<p class="mt-1 text-sm text-base-content/75">
 									During lockdown we decided to do something as a family to keep active and to have
 									some fun.
 								</p>

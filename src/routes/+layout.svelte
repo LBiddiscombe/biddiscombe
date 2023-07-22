@@ -11,14 +11,11 @@
 <div class="flex h-full flex-col">
 	<header class="bg-base-100">
 		<div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-			<div class="flex flex-col items-center justify-between md:flex-row">
-				<div class="flex-1 md:flex md:items-center md:gap-12">
-					<a class="text-gray-500 hover:text-gray-500/75" href="/"><Name /></a>
-				</div>
-
-				<div class="md:flex md:items-center md:gap-12 md:p-4">
+			<div class="flex flex-col items-center justify-between lg:flex-row w-full gap-2">
+				<a href="/"><Name /></a>
+				<div class="md:flex items-center md:gap-12 md:p-4">
 					<nav aria-label="Global" class="">
-						<ul class="flex items-center gap-6">
+						<ul class="flex items-center gap-2 md:gap-6">
 							<li>
 								<a class="text-base-content hover:text-base-content/75" href="/projects">Projects</a>
 							</li>
@@ -31,10 +28,10 @@
 								<a class="text-base-content hover:text-base-content/75" href="/about">About</a>
 							</li>
 							|
+							<ThemeToggle />
 						</ul>
 					</nav>
 				</div>
-				<ThemeToggle />
 			</div>
 		</div>
 	</header>
