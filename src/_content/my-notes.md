@@ -9,7 +9,7 @@ tags:
 published: true
 ---
 
-[https://mynotes-lsb.vercel.app](https://mynotes-lsb.vercel.app)
+[Try it now](https://mynotes-lsb.vercel.app)
 
 My Notes - actually, it's YOUR note taking app. All data is saved locally in the browser, no data is sent to a server.
 

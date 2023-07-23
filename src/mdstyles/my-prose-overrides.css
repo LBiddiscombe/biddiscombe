@@ -1,0 +1,11 @@
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  background-color: #003F60;
+}
+
+.prose :where(.prose > ul > li > *:last-child):not(:where([class~="not-prose"] *)) {
+  margin-bottom: 0.5em !important;
+}
+
+.prose :where(.prose > ul > li > *:first-child):not(:where([class~="not-prose"] *)) {
+  margin-top: 0.25em !important;
+}

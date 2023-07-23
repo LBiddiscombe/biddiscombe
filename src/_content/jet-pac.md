@@ -9,4 +9,4 @@ tags:
 published: true
 ---
 
-[http://lbconstruct2.azurewebsites.net/games/Jetpac/index.html](http://lbconstruct2.azurewebsites.net/games/Jetpac/index.html)
+[Play it now](http://lbconstruct2.azurewebsites.net/games/Jetpac/index.html)

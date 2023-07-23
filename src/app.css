@@ -1,5 +1,7 @@
 @import '@fontsource-variable/mulish';
 @import '@fontsource-variable/source-code-pro';
+@import url('./mdstyles/prism-nord.css');
+@import url('./mdstyles/my-prose-overrides.css');
 
 html,
 body {

@@ -11,7 +11,9 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="prose max-w-screen-xl pt-8">
+<div class="my-4"><a href="/blog" class="underline">Back</a></div>
+
+<article class="prose max-w-screen-xl">
 	<!-- Title -->
 	<hgroup class="">
 		<h1 class="">{data.meta.title}</h1>
@@ -26,7 +28,9 @@
 	</div>
 
 	<!-- Post -->
-	<div class="prose max-w-5xl">
+	<div class="prose max-w-5xl pb-8">
 		<svelte:component this={data.content} />
 	</div>
 </article>
+
+<div class="my-4"><a href="/blog" class="underline">Back</a></div>
