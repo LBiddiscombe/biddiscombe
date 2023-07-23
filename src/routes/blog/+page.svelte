@@ -25,7 +25,7 @@
 	<meta property="og:title" content="LB Blog" />
 </svelte:head>
 
-<div class="flex gap-2 pt-8">
+<div class="flex gap-2 pt-8 flex-wrap justify-center max-w-2xl mx-auto">
 	{#each data.tags as tag}
 		<button
 			class="rounded bg-base-200 px-2 py-1 font-mono text-xs"

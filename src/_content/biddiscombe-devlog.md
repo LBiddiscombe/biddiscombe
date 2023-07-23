@@ -17,7 +17,7 @@ To my future self, and any one else that stumbles accross this, I hope you enjoy
 
 ## Part 1 - Why?
 
-I'm an experienced (old 😩) dev who's worked in a few languages, on a variety of platforms over the course of about 40 years.
+I'm an experienced (old 👴) dev who's worked in a few languages, on a variety of platforms over the course of about 40 years 😢.
 
 What I've enjoyed the most is my time on web technologies (IE4 on WindowsCE anyone?), it just clicked with me...
 
