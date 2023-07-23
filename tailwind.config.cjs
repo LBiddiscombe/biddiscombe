@@ -30,7 +30,7 @@ const config = {
 					'neutral-content': '#e9eaea',
 					'base-100': '#ebfbe7',
 					'base-200': '#F9FDF7',
-					'base-300': '#ffffff',
+					'base-300': '#ffffff'
 				},
 				dark: {
 					...require('daisyui/src/theming/themes')['[data-theme=dark]'],

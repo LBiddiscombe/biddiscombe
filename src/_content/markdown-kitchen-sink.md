@@ -10,7 +10,6 @@ tags:
 published: true
 ---
 
-
 Chucking things in here to see how they will render.
 
 ## Headers
@@ -25,10 +24,15 @@ Chucking things in here to see how they will render.
 ```
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 ## Emphasis
@@ -40,11 +44,11 @@ Chucking things in here to see how they will render.
 ~~Strikethrough text~~
 ```
 
-*Italic text*
+_Italic text_
 
 **Bold text**
 
-***Bold and italic text***
+**_Bold and italic text_**
 
 ~~Strikethrough text~~
 
@@ -92,7 +96,7 @@ Chucking things in here to see how they will render.
 
 ## Code Blocks
 
-```
+````
 ```js
 export function toggleTheme() {
 	theme.update((currentTheme) => {
@@ -105,8 +109,7 @@ export function toggleTheme() {
 	});
 }
 \```
-```
-
+````
 
 ```js
 export function toggleTheme() {
@@ -130,11 +133,13 @@ export function toggleTheme() {
 > This is a blockquote.
 
 ## Horizontal Rule
+
 ```
 ---
 ```
 
 ---
+
 ## Tables
 
 ```
