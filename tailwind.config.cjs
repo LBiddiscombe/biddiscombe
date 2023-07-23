@@ -23,14 +23,14 @@ const config = {
 					'primary-content': '#ffffff',
 					secondary: '#00E5FF',
 					'secondary-content': '#000000',
-					accent: '#0054B4',
-					'accent-content': '#ffffff',
-					neutral: '#2a323c',
+					accent: '#003F60',
+					'accent-content': '#A6ADBB',
+					neutral: '#777C82',
 					'neutral-focus': '#242b33',
-					'neutral-content': '#A6ADBB',
+					'neutral-content': '#e9eaea',
 					'base-100': '#ebfbe7',
-					'base-200': '#d9f7d1',
-					'base-300': '#c7f4bb'
+					'base-200': '#F9FDF7',
+					'base-300': '#ffffff',
 				},
 				dark: {
 					...require('daisyui/src/theming/themes')['[data-theme=dark]'],
@@ -40,12 +40,12 @@ const config = {
 					'secondary-content': '#000000',
 					accent: '#1EEB1D',
 					'accent-content': '#000000',
-					neutral: '#2a323c',
+					neutral: '#777C82',
 					'neutral-focus': '#242b33',
-					'neutral-content': '#A6ADBB',
-					'base-100': '#004C74',
-					'base-200': '#003F60',
-					'base-300': '#00324D',
+					'neutral-content': '#e9eaea',
+					'base-100': '#00283E',
+					'base-200': '#00324D',
+					'base-300': '#003F60',
 					'base-content': '#A6ADBB'
 				}
 			}
