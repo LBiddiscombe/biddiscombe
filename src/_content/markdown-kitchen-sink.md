@@ -124,6 +124,8 @@ export function toggleTheme() {
 }
 ```
 
+And inline code looks like this - `npm install mdsvex`
+
 ## Blockquotes
 
 ```

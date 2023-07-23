@@ -9,7 +9,9 @@ tags:
 published: true
 ---
 
-Welcome to the devlog for this site! The plan is to jot down thoughts, ideas and inspirations throughout the development of the site. Maybe, and not all at once, but over time.
+Welcome to the devlog for this site!  Yeah, _this site_, the one thats hosting the devlog. Anyway, it's new,  and it's not much more than a shell, we've not missed much, but we'll recap and catch up.
+
+The plan is to jot down thoughts, ideas and inspirations throughout the development of the site. Maybe, and not all at once, but over time.
 
 I'll probably cover various aspects of the development process, including the technologies used, inspiring resources, content creation, deployments, and lessons learned.
 
@@ -19,13 +21,13 @@ To my future self, and any one else that stumbles accross this, I hope you enjoy
 
 I'm an experienced (old 👴) dev who's worked in a few languages, on a variety of platforms over the course of about 40 years 😢.
 
-What I've enjoyed the most is my time on web technologies (IE4 on WindowsCE anyone?), it just clicked with me...
+What I've enjoyed the most is my time on web technologies (IE4 on Windows CE anyone?), it just clicked with me...
 
 > Web development is like a digital playground where I can unleash my creativity, build interactive experiences, and make pixels dance to the beat of my code. It's like finding the perfect rhythm in a symphony of HTML, CSS, and JavaScript that just resonates with my soul. - ChatGPT, July 2023
 
 ...or something like that, just without the pixel perfect-ness. So that'll be the focus for this site. It's time to scoop it all up and share it in one place.
 
-There might end up being things in
+There might be some things in
 - Vanilla JavaScript, HTML and CSS
 - Frameworks - RiotJS, React, Svelte, SvelteKit
 - Game Engines - Phaser, Construct 2 & 3, KontraJS, LittleJS

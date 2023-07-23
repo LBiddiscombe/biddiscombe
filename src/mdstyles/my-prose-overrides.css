@@ -1,5 +1,6 @@
 .prose :where(code):not(:where([class~='not-prose'] *)) {
-	background-color: #003f60;
+	background-color: hsl(var(--b3)) !important;
+	border-radius: 4px !important;
 }
 
 .prose :where(.prose > ul > li > *:last-child):not(:where([class~='not-prose'] *)) {
