@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import '../app.postcss';
+	import { page } from '$app/stores';
 	import PageTransition from '$lib/components/transition.svelte';
 	import Name from '$lib/components/name.svelte';
 	import ThemeToggle from '$lib/components/themeToggle.svelte';
@@ -17,15 +18,27 @@
 					<nav aria-label="Global" class="">
 						<ul class="flex items-center gap-2 md:gap-6">
 							<li>
-								<a class="text-base-content hover:text-base-content/75" href="/projects">Projects</a>
+								<a
+									class="text-base-content hover:text-base-content/75 pb-2 border-base-content"
+									class:border-b-2={$page.url.pathname === '/projects'}
+									href="/projects">Projects</a
+								>
 							</li>
 							|
 							<li>
-								<a class="text-base-content hover:text-base-content/75" href="/blog">Blog</a>
+								<a
+									class="text-base-content hover:text-base-content/75 pb-2 border-base-content"
+									class:border-b-2={$page.url.pathname === '/blog'}
+									href="/blog">Blog</a
+								>
 							</li>
 							|
 							<li>
-								<a class="text-base-content hover:text-base-content/75" href="/about">About</a>
+								<a
+									class="text-base-content hover:text-base-content/75 pb-2 border-base-content"
+									class:border-b-2={$page.url.pathname === '/about'}
+									href="/about">About</a
+								>
 							</li>
 							|
 							<ThemeToggle />
