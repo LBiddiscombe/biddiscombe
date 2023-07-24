@@ -1,15 +1,16 @@
 ---
-title: biddiscombe.dev Devlog
+title: biddiscombe.dev Part 1 - Catching Up
 description: A devlog to remember things during the development of this site
 coverimg: '/images/biddiscombe.dev-cover.png'
 date: '2023-07-23'
 tags:
   - 'website'
+  - 'devlog'
 
 published: true
 ---
 
-Welcome to the devlog for this site!  Yeah, _this site_, the one thats hosting the devlog. Anyway, it's new,  and it's not much more than a shell, we've not missed much, but we'll recap and catch up.
+Welcome to the devlog for this site! Yeah, _this site_, the one thats hosting the devlog. Anyway, it's new,  and it's not much more than a shell, we've not missed much, but we'll recap and catch up.
 
 The plan is to jot down thoughts, ideas and inspirations throughout the development of the site. Maybe, and not all at once, but over time.
 
@@ -17,7 +18,7 @@ I'll probably cover various aspects of the development process, including the te
 
 To my future self, and any one else that stumbles accross this, I hope you enjoy it! 
 
-## Part 1 - Why?
+## Why?
 
 I'm an experienced (old 👴) dev who's worked in a few languages, on a variety of platforms over the course of about 40 years 😢.
 
@@ -38,7 +39,7 @@ There might be some things in
 
 Here we go!
 
-## Part 2 - What?
+## What?
 A blog? A portfolio Site? A personal website? What's the difference? I'm not sure yet. I'll figure it out as I go.
 
 For now I'm thinking of it as a personal website, so thats what I'll refer to it as.
@@ -52,7 +53,7 @@ Things I want to include
 - Contacts / Follow page - probably ought to if I end up hosting a resume!
 - Favorites page - my favourites... maybe just a blog post though
 
-## Part 3 - What Tech?
+## The Tech?
 Sveltekit, 100% I know that, I love it! Svelte elevates the fun of web dev and SvelteKit adds even more powers. What else?
 
 - Markdown - my go-to syntax for writing

@@ -44,8 +44,8 @@ const config = {
 					'neutral-focus': '#242b33',
 					'neutral-content': '#e9eaea',
 					'base-100': '#00283E',
-					'base-200': '#00324D',
-					'base-300': '#003F60',
+					'base-200': '#001b2a',
+					'base-300': '#000b1a',
 					'base-content': '#A6ADBB'
 				}
 			}
