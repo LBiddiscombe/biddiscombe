@@ -38,14 +38,14 @@ const config = {
 					'primary-content': '#ffffff',
 					secondary: '#00E5FF',
 					'secondary-content': '#000000',
-					accent: '#1EEB1D',
+					accent: '#ebfbe7',
 					'accent-content': '#000000',
 					neutral: '#777C82',
 					'neutral-focus': '#242b33',
 					'neutral-content': '#e9eaea',
-					'base-100': '#00283E',
-					'base-200': '#001b2a',
-					'base-300': '#000b1a',
+					'base-100': '#001b2a',
+					'base-200': '#000f17',
+					'base-300': '#000203',
 					'base-content': '#A6ADBB'
 				}
 			}
