@@ -170,14 +170,14 @@ And inline code looks like this - `npm install mdsvex`
 ## Svelte Components
 ```
 <script>
-  import Name from '$lib/components/name.svelte';
+  import Name from '$lib/components/Name.svelte';
 </script>
 
 <Name />
 ```
 <script>
-  import Name from '$lib/components/name.svelte';
-	import Demo from './sketches/demo.svelte';
+  import Name from '$lib/components/Name.svelte';
+	import Demo from './sketches/Demo.svelte';
 </script>
 
 <Name />
@@ -185,7 +185,7 @@ And inline code looks like this - `npm install mdsvex`
 ## p5js Sketches
 ```
 <script>
-	import Demo from './sketches/demo.svelte';
+	import Demo from './sketches/Demo.svelte';
 </script>
 
 <Demo />

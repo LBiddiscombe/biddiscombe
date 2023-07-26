@@ -2,9 +2,9 @@
 	import '../app.css';
 	import '../app.postcss';
 	import { page } from '$app/stores';
-	import PageTransition from '$lib/components/transition.svelte';
-	import Name from '$lib/components/name.svelte';
-	import ThemeToggle from '$lib/components/themeToggle.svelte';
+	import PageTransition from '$lib/components/Transition.svelte';
+	import Name from '$lib/components/Name.svelte';
+	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 
 	export let data;
 </script>
