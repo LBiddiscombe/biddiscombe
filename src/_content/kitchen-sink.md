@@ -1,11 +1,10 @@
 ---
-title: Markdown Kitchen Sink
+title: Kitchen Sink
 description: Chucking things in here to see how they will render
 coverimg: ''
 date: '2023-07-23'
 tags:
   - 'demo'
-  - 'markdown'
   - 'mdsvex'
 published: true
 ---
@@ -167,3 +166,30 @@ And inline code looks like this - `npm install mdsvex`
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
+
+## Svelte Components
+```
+<script>
+  import Name from '$lib/components/name.svelte';
+</script>
+
+<Name />
+```
+<script>
+  import Name from '$lib/components/name.svelte';
+	import Demo from './sketches/demo.svelte';
+</script>
+
+<Name />
+
+## p5js Sketches
+```
+<script>
+	import Demo from './sketches/demo.svelte';
+</script>
+
+<Demo />
+
+```
+
+<Demo />
