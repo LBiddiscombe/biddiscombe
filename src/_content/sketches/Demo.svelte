@@ -1,5 +1,6 @@
 <script lang="ts">
 	import P5, { type Sketch } from 'p5-svelte';
+	import { scaleCanvas } from '$lib/utils';
 
 	const sketch: Sketch = (p5) => {
 		p5.setup = function () {
@@ -33,6 +34,12 @@
 			}
 		};
 	};
+
+	function gotRef(e: Event) {
+		const parentNode = e.detail;
+		const canvas = e.detail.childNodes[0];
+		scaleCanvas(parentNode, canvas);
+	}
 </script>
 
-<P5 {sketch} />
+<P5 {sketch} on:ref={gotRef} />

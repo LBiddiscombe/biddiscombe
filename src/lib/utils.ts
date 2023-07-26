@@ -11,3 +11,14 @@ export function getColorForString(input: string): string {
 	}, 0);
 	return `hsl(${hash % 360}, 95%, 35%)`;
 }
+
+export function scaleCanvas(parentNode: HTMLElement, canvas: HTMLCanvasElement) {
+	const parentWidth = parentNode.getBoundingClientRect().width;
+	const canvasWidth = canvas.getBoundingClientRect().width;
+	const scale = parentWidth / canvasWidth;
+
+	if (scale < 1) {
+		canvas.style.transformOrigin = 'top left';
+		canvas.style.scale = `${scale}`;
+	}
+}
