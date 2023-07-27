@@ -4,6 +4,7 @@ export type Content = {
 	description: string;
 	date: string;
 	coverimg: string;
+	link?: string;
 	tags: string[];
 	published: boolean;
 };

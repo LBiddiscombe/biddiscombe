@@ -1,11 +1,9 @@
 ---
 title: Kitchen Sink
 description: Chucking things in here to see how they will render
-coverimg: ''
+coverimg: '/images/kitchen-sink-cover.jpeg'
 date: '2023-07-23'
-tags:
-  - 'demo'
-  - 'mdsvex'
+tags: ['demo', 'mdsvex']
 published: true
 ---
 

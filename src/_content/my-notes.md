@@ -3,9 +3,7 @@ title: My Notes
 description: A local only note taking app
 coverimg: '/images/my-notes-cover.png'
 date: '2023-06-26'
-tags:
-  - 'app'
-  - 'svelte'
+tags: ['app', 'svelte']
 published: true
 ---
 

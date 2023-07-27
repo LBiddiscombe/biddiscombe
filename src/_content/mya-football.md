@@ -1,11 +1,10 @@
 ---
 title: Football Platformer
 description: A little platform game
-coverimg: '/images/my-notes-cover.png'
+coverimg: '/images/mya-football-cover.png'
+link: 'http://lbconstruct2.azurewebsites.net/games/MyaFootball/index.html'
 date: '2014-03-22'
-tags:
-  - 'game'
-  - 'construct'
+tags: ['game', 'construct']
 published: true
 ---
 

@@ -3,9 +3,7 @@ title: biddiscombe.dev Devlog
 description: A devlog to remember things during the development of this site
 coverimg: '/images/biddiscombe.dev-cover.png'
 date: '2023-07-23'
-tags:
-  - 'website'
-
+tags: ['website']
 published: false
 ---
 

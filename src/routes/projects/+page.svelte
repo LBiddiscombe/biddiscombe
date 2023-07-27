@@ -1,8 +1,7 @@
-<script lag="ts">
-	// your script goes here
+<script lang="ts">
+	import Showcase from './Showcase.svelte';
 
-	import Apps from './apps.svelte';
-	import Games from './games.svelte';
+	export let data;
 </script>
 
 <svelte:head>
@@ -10,6 +9,12 @@
 	<meta property="og:title" content="LB Projects" />
 </svelte:head>
 
+<Showcase data={data.content} tag="app">
+	<span slot="title">Apps</span>
+	<span slot="description">Some of the apps I've made for various projects</span>
+</Showcase>
 
-<Apps />
-<Games />
+<Showcase data={data.content} tag="game">
+	<span slot="title">Games</span>
+	<span slot="description">Some games I had fun creating over the years</span>
+</Showcase>

@@ -3,8 +3,7 @@ title: Family Workout
 description: A lockdown experiment to keep us active and to have some fun
 coverimg: '/images/family-workout-cover.jpg'
 date: '2023-06-26'
-tags:
-  - 'app'
+tags: ['app']
 published: true
 ---
 
