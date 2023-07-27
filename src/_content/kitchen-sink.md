@@ -7,6 +7,8 @@ tags: ['demo', 'mdsvex']
 published: true
 ---
 
+Photo by <a href="https://unsplash.com/@dylu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jacek Dylag</a> on <a href="https://unsplash.com/photos/Vve7XkiUq_Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 Chucking things in here to see how they will render.
 
 ## Headers
@@ -191,3 +193,4 @@ And inline code looks like this - `npm install mdsvex`
 ```
 
 <Demo />
+

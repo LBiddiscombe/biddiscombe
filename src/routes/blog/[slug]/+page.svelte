@@ -27,6 +27,8 @@
 		{/each}
 	</div>
 
+	<img src={data.meta.coverimg} alt="" class="w-full" />
+
 	<!-- Post -->
 	<div class="prose max-w-5xl pb-8">
 		<svelte:component this={data.content} />
