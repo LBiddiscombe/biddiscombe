@@ -20,16 +20,16 @@
 							<li>
 								<a
 									class="text-base-content hover:text-base-content/75 pb-2 border-base-content"
-									class:border-b-2={$page.url.pathname === '/projects'}
-									href="/projects">Projects</a
+									class:border-b-2={$page.url.pathname.includes('/blog')}
+									href="/blog">Blog</a
 								>
 							</li>
 							|
 							<li>
 								<a
 									class="text-base-content hover:text-base-content/75 pb-2 border-base-content"
-									class:border-b-2={$page.url.pathname === '/blog'}
-									href="/blog">Blog</a
+									class:border-b-2={$page.url.pathname === '/projects'}
+									href="/projects">Projects</a
 								>
 							</li>
 							|
