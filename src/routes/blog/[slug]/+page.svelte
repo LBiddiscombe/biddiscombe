@@ -37,7 +37,7 @@
 
 <div class="my-4"><a href="/blog" class="underline">Back</a></div>
 
-<article class="prose max-w-screen-xl">
+<article class="prose max-w-screen-xl mx-auto">
 	<!-- Title -->
 	<hgroup class="">
 		<h1 class="">{data.meta.title}</h1>
@@ -51,10 +51,10 @@
 		{/each}
 	</div>
 
-	<img src={data.meta.coverimg} alt="" class="w-full" />
+	<img src={data.meta.coverimg} alt="" class="w-full max-w-screen-xl" />
 
 	<!-- Post -->
-	<div class="prose max-w-5xl pb-8">
+	<div class="prose max-w-screen-xl pb-8">
 		<svelte:component this={data.content} />
 	</div>
 </article>
