@@ -12,14 +12,13 @@
 			const wrapper = document.createElement('div');
 			const lang = document.createElement('span');
 
-			lang.classList.add('font-mono');
+			wrapper.classList.add('relative', 'bg-[#003f60]', 'rounded', 'text-neutral-content');
+			lang.classList.add('font-mono', 'px-2', 'py-1', 'select-none');
 			lang.innerText = node.className.replaceAll('language-', '');
 
 			node.parentNode?.insertBefore(wrapper, node);
-
 			wrapper.appendChild(lang);
 			wrapper.appendChild(node);
-			wrapper.style.position = 'relative';
 
 			new CopyButton({
 				target: wrapper,
