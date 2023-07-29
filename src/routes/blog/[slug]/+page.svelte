@@ -9,8 +9,20 @@
 		for (const node of document.querySelectorAll(
 			`:not(pre) > code[class*='language-'], pre[class*='language-']`
 		)) {
+			const wrapper = document.createElement('div');
+			const lang = document.createElement('span');
+
+			lang.classList.add('font-mono');
+			lang.innerText = node.className.replaceAll('language-', '');
+
+			node.parentNode?.insertBefore(wrapper, node);
+
+			wrapper.appendChild(lang);
+			wrapper.appendChild(node);
+			wrapper.style.position = 'relative';
+
 			new CopyButton({
-				target: node,
+				target: wrapper,
 				props: { content: node.textContent ?? '' }
 			});
 		}

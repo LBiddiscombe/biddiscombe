@@ -13,7 +13,7 @@ Chucking things in here to see how they will render.
 
 ## Headers
 
-```md
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -36,7 +36,7 @@ Chucking things in here to see how they will render.
 
 ## Emphasis
 
-```md
+```markdown
 *Italic text*
 **Bold text**
 ***Bold and italic text***
@@ -55,7 +55,7 @@ _Italic text_
 
 ### Unordered List
 
-```md
+```markdown
 - Item 1
 - Item 2
 - Item 3
@@ -67,7 +67,7 @@ _Italic text_
 
 ### Ordered List
 
-```md
+```markdown
 1. First item
 2. Second item
 3. Third item
@@ -79,7 +79,7 @@ _Italic text_
 
 ## Links
 
-```md
+```markdown
 [Link to Google](https://www.google.com)
 ```
 
@@ -87,7 +87,7 @@ _Italic text_
 
 ## Images
 
-```md
+```markdown
 ![Alt text](/images/family-workout-cover.jpg)
 ```
 
@@ -95,8 +95,8 @@ _Italic text_
 
 ## Code Blocks
 
-````
-```js
+```markdown
+```javascript
 export function toggleTheme() {
 	theme.update((currentTheme) => {
 		const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -110,7 +110,7 @@ export function toggleTheme() {
 \```
 ````
 
-```js
+```javascript
 export function toggleTheme() {
 	theme.update((currentTheme) => {
 		const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -127,7 +127,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Blockquotes
 
-```md
+```markdown
 > This is a blockquote.
 ```
 
@@ -135,7 +135,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Horizontal Rule
 
-```md
+```markdown
 ---
 ```
 
@@ -143,7 +143,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Tables
 
-```md
+```markdown
 | Column 1 | Column 2 |
 | -------- | -------- |
 | Cell 1   | Cell 2   |
@@ -157,7 +157,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Task Lists
 
-```md
+```markdown
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
