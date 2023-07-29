@@ -13,7 +13,7 @@ Chucking things in here to see how they will render.
 
 ## Headers
 
-```
+```md
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -36,7 +36,7 @@ Chucking things in here to see how they will render.
 
 ## Emphasis
 
-```
+```md
 *Italic text*
 **Bold text**
 ***Bold and italic text***
@@ -55,7 +55,7 @@ _Italic text_
 
 ### Unordered List
 
-```
+```md
 - Item 1
 - Item 2
 - Item 3
@@ -67,7 +67,7 @@ _Italic text_
 
 ### Ordered List
 
-```
+```md
 1. First item
 2. Second item
 3. Third item
@@ -79,7 +79,7 @@ _Italic text_
 
 ## Links
 
-```
+```md
 [Link to Google](https://www.google.com)
 ```
 
@@ -87,7 +87,7 @@ _Italic text_
 
 ## Images
 
-```
+```md
 ![Alt text](/images/family-workout-cover.jpg)
 ```
 
@@ -127,7 +127,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Blockquotes
 
-```
+```md
 > This is a blockquote.
 ```
 
@@ -135,7 +135,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Horizontal Rule
 
-```
+```md
 ---
 ```
 
@@ -143,7 +143,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Tables
 
-```
+```md
 | Column 1 | Column 2 |
 | -------- | -------- |
 | Cell 1   | Cell 2   |
@@ -157,7 +157,7 @@ And inline code looks like this - `npm install mdsvex`
 
 ## Task Lists
 
-```
+```md
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
@@ -168,7 +168,7 @@ And inline code looks like this - `npm install mdsvex`
 - [ ] Task 3
 
 ## Svelte Components
-```
+```svelte
 <script>
   import Name from '$lib/components/Name.svelte';
 </script>
@@ -183,7 +183,7 @@ And inline code looks like this - `npm install mdsvex`
 <Name />
 
 ## p5js Sketches
-```
+```svelte
 <script>
 	import Demo from './sketches/Demo.svelte';
 </script>

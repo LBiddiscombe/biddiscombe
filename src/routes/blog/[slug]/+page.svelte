@@ -1,7 +1,20 @@
 <script lang="ts">
+	import { afterUpdate } from 'svelte';
 	import { formatDate } from '$lib/utils';
+	import CopyButton from '$lib/components/CopyButton.svelte';
 
 	export let data;
+
+	afterUpdate(() => {
+		for (const node of document.querySelectorAll(
+			`:not(pre) > code[class*='language-'], pre[class*='language-']`
+		)) {
+			new CopyButton({
+				target: node,
+				props: { content: node.textContent ?? '' }
+			});
+		}
+	});
 </script>
 
 <!-- SEO -->
