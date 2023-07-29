@@ -18,6 +18,10 @@
 {#if showCheck}
 	<span in:fly={{ y: 10 }} class="top-2 right-2 absolute"><Check /></span>
 {:else}
-	<button in:fly={{ y: -10 }} class="top-2 right-2 absolute" on:click={handleClick}><Copy /></button
+	<button
+		in:fly={{ y: -10 }}
+		class="top-2 right-2 absolute"
+		on:click={handleClick}
+		title="Copy to clipboard"><Copy /></button
 	>
 {/if}
