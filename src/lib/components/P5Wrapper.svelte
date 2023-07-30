@@ -1,6 +1,5 @@
 <script lang="ts">
 	import P5, { type Sketch } from 'p5-svelte';
-	import { scaleCanvas } from '$lib/utils';
 	import { onMount } from 'svelte';
 
 	export let path: string;
@@ -19,7 +18,14 @@
 	function gotRef(e: CustomEvent) {
 		const parentNode = e.detail;
 		const canvas = e.detail.childNodes[0];
-		scaleCanvas(parentNode, canvas);
+		const parentWidth = parentNode.getBoundingClientRect().width;
+		const canvasWidth = canvas.getBoundingClientRect().width;
+		const scale = parentWidth / canvasWidth;
+
+		if (scale < 1) {
+			canvas.style.transformOrigin = 'left center';
+			canvas.style.scale = `${scale}`;
+		}
 	}
 </script>
 

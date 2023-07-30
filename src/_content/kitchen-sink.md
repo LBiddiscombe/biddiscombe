@@ -178,8 +178,6 @@ And inline code looks like this - `npm install mdsvex`
 <script>
   import P5Wrapper from '$lib/components/P5Wrapper.svelte';
   import Name from '$lib/components/Name.svelte';
-	import Demo from './sketches/Demo.svelte';
-	
 </script>
 
 <Name />
@@ -187,13 +185,11 @@ And inline code looks like this - `npm install mdsvex`
 ## p5js Sketches
 ```svelte
 <script>
-	import Demo from './sketches/Demo.svelte';
+	import P5Wrapper from './sketches/P5Wrapper.svelte';
 </script>
 
-<Demo />
+<P5Wrapper path={'../../_content/sketches/continuous-loop.ts'} />
 
 ```
-
-<Demo />
 
 <P5Wrapper path={'../../_content/sketches/continuous-loop.ts'} />
