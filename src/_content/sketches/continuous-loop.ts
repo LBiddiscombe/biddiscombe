@@ -1,4 +1,3 @@
-
 import type { Sketch } from 'p5-svelte';
 
 export const sketch: Sketch = (p5) => {
