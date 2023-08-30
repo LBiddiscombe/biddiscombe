@@ -20,6 +20,7 @@
 		"@sveltejs/kit": "^1.23.1",
 		"@tailwindcss/forms": "^0.5.6",
 		"@tailwindcss/typography": "^0.5.9",
+		"@types/p5": "^1.7.0",
 		"@typescript-eslint/eslint-plugin": "^6.5.0",
 		"@typescript-eslint/parser": "^6.5.0",
 		"autoprefixer": "^10.4.15",
@@ -47,6 +48,7 @@
 		"@fontsource-variable/mulish": "^5.0.9",
 		"@fontsource-variable/source-code-pro": "^5.0.9",
 		"lucide-svelte": "^0.263.0",
+		"p5": "^1.7.0",
 		"p5-global2instance": "^0.9.0",
 		"p5-svelte": "^3.1.2"
 	}
