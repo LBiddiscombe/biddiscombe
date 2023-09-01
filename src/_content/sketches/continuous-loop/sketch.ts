@@ -2,7 +2,7 @@ import type { Sketch } from 'p5-svelte';
 
 export const sketch: Sketch = (p5) => {
   p5.setup = function () {
-    p5.createCanvas(p5.windowWidth, 408);
+    p5.createCanvas(408, 408);
   };
 
   p5.draw = function () {
@@ -14,7 +14,7 @@ export const sketch: Sketch = (p5) => {
     for (let y = 0; y < p5.width; y += 12) {
       for (let i = 0; i < p5.TAU; i += p5.TAU / 32) {
         const Y = y + (p5.frameCount % 12);
-        p5.strokeWeight((408 - Y) / 32 / n);
+        p5.strokeWeight((p5.width - Y) / 32 / n);
         n = 1 == n ? 2 : 1;
         p5.rotate(p5.sin(Y / 64 - p5.frameCount / 16 + i) / (p5.width / 2));
         p5.point(p5.sin(i) * Y, p5.cos(i) * Y);

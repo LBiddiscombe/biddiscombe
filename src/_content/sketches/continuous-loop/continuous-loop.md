@@ -1,13 +1,12 @@
 ---
 title: Continuous Loop Sketch
-description: A sketch based on a dweet by (must find the creator!)
-coverimg: ''
+description: A sketch based on a creation by Koma Tebe
 date: '2023-01-01'
 tags: ['p5', 'dwitter']
 published: true
 ---
 
-A P5 sketch based on this [dwitter](dwitter.net) creation by (must find the creator!) for genuary 2023.
+A P5 sketch based on this [creation](https://twitter.com/KomaTebe/status/1622885628152086528?s=20) by Koma Tebe
 
 ```javascript
 f=0,q=200,draw=r=>{for(f++||createCanvas(W=400,W),background(0),translate(w=200,W),stroke(W),n=1,y=0;y<W;y+=12)

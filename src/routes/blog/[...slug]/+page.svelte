@@ -51,7 +51,9 @@
 		{/each}
 	</div>
 
-	<img src={data.meta.coverimg} alt="" class="w-full max-w-screen-xl" />
+	{#if data.meta.coverimg}
+		<img src={data.meta.coverimg} alt="" class="w-full max-w-screen-xl" />
+	{/if}
 
 	<!-- Post -->
 	<div class="prose max-w-screen-xl pb-8">

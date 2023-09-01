@@ -4,7 +4,7 @@ export type Content = {
 	subPath?: string;
 	description: string;
 	date: string;
-	coverimg: string;
+	coverimg?: string;
 	link?: string;
 	tags: string[];
 	published: boolean;
