@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Showcase from './Showcase.svelte';
+	// import Sketches from './Sketches.svelte';
 
 	export let data;
 </script>
@@ -18,3 +19,5 @@
 	<span slot="title">Games</span>
 	<span slot="description">Some games I had fun creating over the years</span>
 </Showcase>
+
+<!-- <Sketches data={data.sketches} /> -->

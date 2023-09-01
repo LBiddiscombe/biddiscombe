@@ -1,5 +1,6 @@
 import { json } from '@sveltejs/kit';
 import type { Content } from '$lib/types';
+import path from 'path';
 
 async function getContent(searchTags: string[] = []) {
 	let content: Content[] = [];
@@ -7,9 +8,10 @@ async function getContent(searchTags: string[] = []) {
 
 	const paths = import.meta.glob('/src/_content/**/*.md', { eager: true });
 
-	for (const path in paths) {
-		const file = paths[path];
-		const slug = path.split('/').at(-1)?.replace('.md', '');
+	for (const filepath in paths) {
+		const file = paths[filepath];
+		const subPath = path.dirname(filepath).replace('/src/_content', '');
+		const slug = `${subPath}/${filepath.split('/').at(-1)?.replace('.md', '')}`;
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
 			const metadata = file.metadata as Omit<Content, 'slug'>;

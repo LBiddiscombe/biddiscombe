@@ -1,7 +1,7 @@
 import type { Sketch } from 'p5-svelte';
-import { Mover } from './helpers/mover';
-import { Attractor } from './helpers/attractor';
-import { Emitter } from './helpers/emitter';
+import { Mover } from '../helpers/mover';
+import { Attractor } from '../helpers/attractor';
+import { Emitter } from '../helpers/emitter';
 
 export const sketch: Sketch = (p5) => {
   let mover: Mover;

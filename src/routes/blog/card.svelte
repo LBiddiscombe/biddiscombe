@@ -5,7 +5,7 @@
 	export let app: Content;
 </script>
 
-<a href={`blog/${app.slug}`} class="bg-base-300 p-4">
+<a href={`blog${app.slug}`} class="bg-base-300 p-4">
 	<article class="py-2">
 		<p class="text-xl font-semibold text-balance">{app.title}</p>
 		<p class=" text-base-content/50">{formatDate(app.date)}</p>
