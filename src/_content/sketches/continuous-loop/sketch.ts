@@ -22,13 +22,4 @@ export const sketch: Sketch = (p5) => {
     }
     p5.circle(0, 0, 16);
   };
-
-  p5.keyPressed = function () {
-    if (p5.key === 's') {
-      p5.saveGif('loop', p5.width / 4, {
-        delay: 0,
-        units: 'frames'
-      });
-    }
-  };
 };

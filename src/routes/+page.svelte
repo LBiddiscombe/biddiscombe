@@ -1,4 +1,6 @@
 <script lang="ts">
+	import P5Wrapper from '$lib/components/P5Wrapper.svelte';
+	import { theme } from '$lib/theme';
 </script>
 
 <svelte:head>
@@ -7,7 +9,25 @@
 </svelte:head>
 
 <div class="mx-auto grid h-full max-w-screen-xl place-items-center">
-	Hi, I'm Lee, a developer based in the UK
+	<p class="-translate-y-16 z-10">Hi, I'm Lee, a developer based in the UK</p>
+
+	{#if $theme === 'light'}
+		<div class="w-full fixed left-0 bottom-0 pointer-events-none mix-blend-darken">
+			<P5Wrapper path={'../../_content/sketches/beach-waves/sketch.ts'} />
+			<p class="z-10 fixed right-4 bottom-4 text-sm bg-base-100 px-2 py-1 rounded-md">
+				Sketch:
+				<a href="/blog/sketches/beach-waves/beach-waves" class="underline">Beach Waves</a>
+			</p>
+		</div>
+	{:else}
+		<div class="w-full fixed left-0 bottom-0 mix-blend-lighten pointer-events-none">
+			<P5Wrapper path={'../../_content/sketches/fireworks/sketch.ts'} />
+			<p class="z-10 fixed right-4 bottom-4 text-sm bg-base-100 px-2 py-1 rounded-md">
+				Sketch:
+				<a href="/blog/sketches/beach-waves/fireworks" class="underline">Fireworks</a>
+			</p>
+		</div>
+	{/if}
 
 	<!-- <div class="grid grid-cols-3 gap-2 w-full border-2 border-accent p-2 lg:p-4">
 		<h3 class="text-2xl font-semibold col-span-3 h-16">Theme Preview</h3>
