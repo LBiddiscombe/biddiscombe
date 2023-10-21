@@ -4,7 +4,7 @@ description: Online editor that compiles to copy paste-able instance mode code, 
 coverimg: '/images/p5g2i-cover.png'
 link: 'https://p5g2i.biddiscombe.dev'
 date: '2023-10-21'
-tags: ['app']
+tags: ['app', 'p5', 'svelte']
 published: true
 ---
 
