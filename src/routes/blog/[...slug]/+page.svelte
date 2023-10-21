@@ -52,7 +52,7 @@
 	</div>
 
 	{#if data.meta.coverimg}
-		<img src={data.meta.coverimg} alt="" class="w-full max-w-screen-xl" />
+		<img src={data.meta.coverimg} alt="" class="w-full max-w-screen-sm" />
 	{/if}
 
 	<!-- Post -->
