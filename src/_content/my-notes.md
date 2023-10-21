@@ -2,6 +2,7 @@
 title: My Notes
 description: A local only note taking app
 coverimg: '/images/my-notes-cover.png'
+link: 'https://mynotes-lsb.vercel.app'
 date: '2023-06-26'
 tags: ['app', 'svelte']
 published: true
