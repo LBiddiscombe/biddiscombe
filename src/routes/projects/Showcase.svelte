@@ -5,7 +5,7 @@
 	export let data: Content[];
 	export let tag: string;
 
-	$: posts = shuffleArray(data.filter((post: Content) => post.tags.includes(tag)));
+	$: posts = shuffleArray(data.filter((post: Content) => post.tags.includes(tag))).slice(0, 2);
 </script>
 
 <section class="mx-auto max-w-screen-xl py-8 sm:py-12">
