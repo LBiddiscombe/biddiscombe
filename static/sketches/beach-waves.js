@@ -34,9 +34,12 @@ export const sketch = (_p5) => {
       x: 0,
       y: _p5.height
     });
+
+    const waveXSize = _p5.map(_p5.width, 0, 3000, _p5.width, _p5.width / 4);
+
     for (let x = 0; x < _p5.width + res; x += res) {
       const y = _p5.height + _p5.height / 8;
-      const ny = _p5.noise((x + xoff) / (_p5.width / 4)) * sy * _p5.height / 1.2 - _p5.height / 4;
+      const ny = _p5.noise((x + xoff) / waveXSize) * sy * _p5.height / 1.2 - _p5.height / 4;
       const cy = _p5.cos((x + yoff * 100) / _p5.width * 4) * _p5.height / 8;
       wave.push({
         x,

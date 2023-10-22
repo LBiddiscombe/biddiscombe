@@ -2,7 +2,7 @@
 title: Continuous Loop Sketch
 description: A sketch based on a creation by Koma Tebe
 date: '2023-01-01'
-tags: ['p5', 'dwitter']
+tags: ['p5', 'dwitter', 'sketch']
 published: true
 ---
 
@@ -17,4 +17,4 @@ for(i=0;i<TAU;i+=PI/16)Y=y+f%12,strokeWeight((W-Y)/36/n),n=1==n?2:1,rotate(sin(Y
 	import P5Wrapper from '$lib/components/P5Wrapper.svelte';
 </script>
 
-<P5Wrapper path={'../../_content/sketches/continuous-loop/sketch.ts'} />
+<P5Wrapper path={'/sketches/continuous-loop.js'} />
