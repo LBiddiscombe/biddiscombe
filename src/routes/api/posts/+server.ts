@@ -6,7 +6,7 @@ async function getContent(searchTags: string[] = []) {
 	let content: Content[] = [];
 	const tags: string[] = [];
 
-	const paths = import.meta.glob('/src/_content/**/*.md', { eager: true });
+	const paths = import.meta.glob('/src/_content/*.md', { eager: true });
 
 	for (const filepath in paths) {
 		const file = paths[filepath];
