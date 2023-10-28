@@ -15,10 +15,15 @@ Chucking things in here to see how they will render.
 
 ```markdown
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 ```
 
@@ -37,9 +42,9 @@ Chucking things in here to see how they will render.
 ## Emphasis
 
 ```markdown
-*Italic text*
+_Italic text_
 **Bold text**
-***Bold and italic text***
+**_Bold and italic text_**
 ~~Strikethrough text~~
 ```
 
@@ -95,8 +100,8 @@ _Italic text_
 
 ## Code Blocks
 
-```markdown
-```javascript
+````markdown
+````javascript
 export function toggleTheme() {
 	theme.update((currentTheme) => {
 		const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -108,6 +113,7 @@ export function toggleTheme() {
 	});
 }
 \```
+````
 ````
 
 ```javascript
@@ -168,13 +174,15 @@ And inline code looks like this - `npm install mdsvex`
 - [ ] Task 3
 
 ## Svelte Components
+
 ```svelte
 <script>
-  import Name from '$lib/components/Name.svelte';
+	import Name from '$lib/components/Name.svelte';
 </script>
 
 <Name />
 ```
+
 <script>
   import P5Wrapper from '$lib/components/P5Wrapper.svelte';
   import Name from '$lib/components/Name.svelte';
@@ -183,13 +191,13 @@ And inline code looks like this - `npm install mdsvex`
 <Name />
 
 ## p5js Sketches
+
 ```svelte
 <script>
 	import P5Wrapper from '$lib/components/P5Wrapper.svelte';
 </script>
 
 <P5Wrapper path={'../../_content/sketches/continuous-loop/sketch.ts'} />
-
 ```
 
-<P5Wrapper path={'../../_content/sketches/continuous-loop/sketch.ts'} />
+<P5Wrapper path={'../../\_content/sketches/continuous-loop/sketch.ts'} />

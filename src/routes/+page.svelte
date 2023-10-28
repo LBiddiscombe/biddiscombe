@@ -9,21 +9,21 @@
 </svelte:head>
 
 <div class="mx-auto grid h-full max-w-screen-xl place-items-center">
-	<p class="-translate-y-16 z-10">Hi, I'm Lee, a developer based in the UK</p>
+	<p class="z-10 -translate-y-16">Hi, I'm Lee, a developer based in the UK</p>
 
 	{#if $theme === 'light'}
-		<div class="w-full fixed left-0 bottom-0 pointer-events-none mix-blend-darken">
+		<div class="pointer-events-none fixed bottom-0 left-0 w-full mix-blend-darken">
 			<P5Wrapper path={'/sketches/beach-waves.js'} />
 		</div>
-		<p class="z-10 fixed right-4 bottom-4 text-sm bg-base-100 px-2 py-1 rounded-md">
+		<p class="fixed bottom-4 right-4 z-10 rounded-md bg-base-100 px-2 py-1 text-sm">
 			Sketch:
 			<a href="/blog/beach-waves" class="underline">Beach Waves</a>
 		</p>
 	{:else}
-		<div class="w-full fixed left-0 bottom-0 mix-blend-lighten pointer-events-none">
+		<div class="pointer-events-none fixed bottom-0 left-0 w-full mix-blend-lighten">
 			<P5Wrapper path={'/sketches/fireworks.js'} />
 		</div>
-		<p class="z-10 fixed right-4 bottom-4 text-sm bg-base-100 px-2 py-1 rounded-md">
+		<p class="fixed bottom-4 right-4 z-10 rounded-md bg-base-100 px-2 py-1 text-sm">
 			Sketch:
 			<a href="/blog/fireworks" class="underline">Fireworks</a>
 		</p>

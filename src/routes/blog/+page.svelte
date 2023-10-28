@@ -25,7 +25,7 @@
 	<meta property="og:title" content="LB Blog" />
 </svelte:head>
 
-<div class="flex gap-2 pt-8 flex-wrap justify-center max-w-2xl mx-auto">
+<div class="mx-auto flex max-w-2xl flex-wrap justify-center gap-2 pt-8">
 	{#each data.tags as tag}
 		<button
 			class="rounded bg-base-200 px-2 py-1 font-mono text-xs"
@@ -36,7 +36,7 @@
 	{/each}
 </div>
 
-<section class="grid auto-rows-fr grid-cols-1 gap-4 pt-4 md:grid-cols-2 lg:grid-cols-3 pb-16">
+<section class="grid auto-rows-fr grid-cols-1 gap-4 pb-16 pt-4 md:grid-cols-2 lg:grid-cols-3">
 	{#each content as app}
 		<Card {app} />
 	{/each}

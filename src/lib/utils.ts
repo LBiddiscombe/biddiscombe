@@ -55,7 +55,10 @@ export function hsl2hex(hslStr: string): string {
 		b = hue2rgb(p, q, h / 360 - 1 / 3);
 	}
 
-	const toHex = (x: number): string => Math.round(x * 255).toString(16).padStart(2, '0');
+	const toHex = (x: number): string =>
+		Math.round(x * 255)
+			.toString(16)
+			.padStart(2, '0');
 
 	const hexColor = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 	return hexColor;

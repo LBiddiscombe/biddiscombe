@@ -7,11 +7,11 @@
 </script>
 
 <section class="mx-auto max-w-screen-xl py-8 sm:py-12">
-	<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch sm:h-[540px] h-auto">
-		<div class="bg-neutral/50 p-6 sm:p-8 flex items-center justify-center">
+	<div class="grid h-auto grid-cols-1 gap-4 sm:h-[540px] lg:grid-cols-3 lg:items-stretch">
+		<div class="flex items-center justify-center bg-neutral/50 p-6 sm:p-8">
 			<div class="mx-auto max-w-md text-center lg:text-left">
 				<header>
-					<h2 class="text-xl font-bold text-content sm:text-3xl">P5 Sketch Explorer</h2>
+					<h2 class="text-content text-xl font-bold sm:text-3xl">P5 Sketch Explorer</h2>
 				</header>
 				<ul class="grid grid-cols-2 gap-4">
 					{#each data as sketch}

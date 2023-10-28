@@ -11,4 +11,3 @@ published: true
 [Try it now](https://p5g2i.biddiscombe.dev)
 
 Online editor that compiles to copy paste-able `instance mode` code, while you enjoy the ease of writing sketches in global mode.
-

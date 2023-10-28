@@ -7,13 +7,13 @@ tags: ['webdev', 'devlog']
 published: true
 ---
 
-Welcome to the devlog for this site! Yeah, _this site_, the one thats hosting the devlog. Anyway, it's new,  and it's not much more than a shell, we've not missed much, but we'll recap and catch up.
+Welcome to the devlog for this site! Yeah, _this site_, the one thats hosting the devlog. Anyway, it's new, and it's not much more than a shell, we've not missed much, but we'll recap and catch up.
 
 The plan is to jot down thoughts, ideas and inspirations throughout the development of the site. Maybe, and not all at once, but over time.
 
 I'll probably cover various aspects of the development process, including the technologies used, inspiring resources, content creation, deployments, and lessons learned.
 
-To my future self, and any one else that stumbles accross this, I hope you enjoy it! 
+To my future self, and any one else that stumbles accross this, I hope you enjoy it!
 
 ## Why?
 
@@ -26,22 +26,25 @@ What I've enjoyed the most is my time on web technologies (IE4 on Windows CE any
 ...or something like that, just without the pixel perfect-ness. So that'll be the focus for this site. It's time to scoop it all up and share it in one place.
 
 There might be some things in
+
 - Vanilla JavaScript, HTML and CSS
 - Frameworks - RiotJS, React, Svelte, SvelteKit
 - Game Engines - Phaser, Construct 2 & 3, KontraJS, LittleJS
 - Creative Coding platforms - p5js, Processing
 - 3D stuff - Three.js, Babylon.js, Threlte
 
-... eventually, first I've got to find it all! There's stuff scattered accross my storage accounts, some deployed, some not. 
+... eventually, first I've got to find it all! There's stuff scattered accross my storage accounts, some deployed, some not.
 
 Here we go!
 
 ## What?
+
 A blog? A portfolio Site? A personal website? What's the difference? I'm not sure yet. I'll figure it out as I go.
 
 For now I'm thinking of it as a personal website, so thats what I'll refer to it as.
 
 Things I want to include
+
 - A blog, kind of, but not just blog posts, but i like the idea of authoring content in text format
 - A portfolio of my work, or at least snippets of my personal, for fun stuff
 - A resume or manual of me, or both? maybe a subdomain "lee.biddiscombe.dev"?
@@ -51,6 +54,7 @@ Things I want to include
 - Favorites page - my favourites... maybe just a blog post though
 
 ## The Tech?
+
 Sveltekit, 100% I know that, I love it! Svelte elevates the fun of web dev and SvelteKit adds even more powers. What else?
 
 - Markdown - my go-to syntax for writing
@@ -60,4 +64,3 @@ Sveltekit, 100% I know that, I love it! Svelte elevates the fun of web dev and S
 - Lucide icons - nice icons, easy to use
 
 ... and for this most timely inspiration - [Joy of Code - Sveltekit Markdown Blog](https://joyofcode.xyz/sveltekit-markdown-blog) - Thanks Matija from 🇭🇷 Croatia 🫡
-

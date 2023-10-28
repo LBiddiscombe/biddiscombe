@@ -10,7 +10,7 @@ Part 1 of a pair of sketches done for this site. I thought it was about time I a
 
 So why a beach? Do I love the beach? It's fine, but not a dream location for me. Am I a wannabe surf dude?... no, I'm really not! I was skimming back through my photos looking for inspiration and spotted some nice photos from a family trip to Poland and in particular a day trip to [Slowinksi National Park](https://en.wikipedia.org/wiki/Slovincian_National_Park) with its vast moving sand dunes. Hey!, that looks like my background colour so I thought it would be nice to have a wave as a reminder of the park and it being flanked by the sandy beaches of Baltic sea and lake Lebsko.
 
-![/images/slowinski.jpeg](/images/slowinski.jpeg) 
+![/images/slowinski.jpeg](/images/slowinski.jpeg)
 
 <script>
 	import P5Wrapper from '$lib/components/P5Wrapper.svelte';

@@ -13,4 +13,4 @@ export type Content = {
 export type SketchInfo = {
 	name: string;
 	path: string;
-}
+};

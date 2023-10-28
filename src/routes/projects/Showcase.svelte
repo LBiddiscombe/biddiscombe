@@ -10,19 +10,19 @@
 
 <section class="mx-auto max-w-screen-xl py-8 sm:py-12">
 	<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-		<div class="bg-neutral/50 p-6 sm:p-8 flex items-center justify-center">
+		<div class="flex items-center justify-center bg-neutral/50 p-6 sm:p-8">
 			<div class="mx-auto max-w-md text-center lg:text-left">
 				<header>
-					<h2 class="text-xl font-bold text-content sm:text-3xl">
+					<h2 class="text-content text-xl font-bold sm:text-3xl">
 						<slot name="title" />
 					</h2>
-					<p class="mt-4 text-content">
+					<p class="text-content mt-4">
 						<slot name="description" />
 					</p>
 				</header>
 				<a
 					href="/blog?searchTags={tag}"
-					class="btn btn-neutral rounded-none mt-8 inline-block px-12 py-3 text-sm font-medium hover:shadow focus:outline-none focus:ring"
+					class="btn btn-neutral mt-8 inline-block rounded-none px-12 py-3 text-sm font-medium hover:shadow focus:outline-none focus:ring"
 				>
 					View All
 				</a>

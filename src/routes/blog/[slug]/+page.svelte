@@ -37,7 +37,7 @@
 
 <div class="my-4"><a href="/blog" class="underline">Back</a></div>
 
-<article class="prose max-w-screen-xl mx-auto">
+<article class="prose mx-auto max-w-screen-xl">
 	<!-- Title -->
 	<hgroup class="">
 		<h1 class="">{data.meta.title}</h1>
